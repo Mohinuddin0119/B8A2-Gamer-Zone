@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+}
+*{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+*{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+/* --nav section design start here-- */
+
+.nav-container{
+    min-width:400px;
+    max-width: 1400px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.nav-logo{
+    display: flex;
+   align-items: center;
+
+}
+.nav-logo-img{
+    width: 50px;
+    height: 25px;
+}
+.nav-logo p{
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navlogo-info{
+    color:fuchsia;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: black;
+}
+.nav-icons{
+    padding: 10px 20px;
+    background-color: #cbd1d1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+.fa-brands{
+    font-size: 20px;
+}
+.fa-facebook{
+    color: rgb(38, 38, 209);
+}
+.fa-youtube{
+    color: red;
+
+}
+
+/* --nav section design end here-- */

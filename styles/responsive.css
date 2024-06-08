@@ -1,0 +1,45 @@
+
+/* --Mobile device-- */
+@media screen and (max-width:576px) {
+    
+/* --nav section responsive start here-- */
+
+.nav-container{
+    flex-direction: column;
+    background-color: wheat;
+}
+.nav-list{
+    flex-direction: column;
+}
+.navbar{
+    flex-direction: column;
+}
+.nav-logo{
+    margin:30px auto;
+}
+
+/* --nav section responsive end here-- */
+}
+
+
+
+/* --medium device-- */
+@media screen and (min-width:576px) and (max-width:992px) {
+/* --nav section responsive start here-- */
+
+.nav-container{
+    flex-direction: column;
+    background-color: aquamarine;
+}
+.nav-list{
+    flex-direction: column;
+}
+.navbar{
+    flex-direction: column;
+}
+.nav-logo{
+    margin:30px auto;
+}
+
+/* --nav section responsive end here-- */
+}
