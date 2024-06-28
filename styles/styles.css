@@ -84,3 +84,41 @@
 }
 
 /* --nav section design end here-- */
+
+/* banner section design start here */
+
+.game-banner{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color:#cbd1d1 ;
+    height: 650px;
+}
+.banner-info{
+width: 200px;
+    
+}
+.banner-like{
+    font-size: 30px;
+    font-weight: 700;
+    color: #0B0223;
+}
+.banner-goat{
+    font-size: 50px;
+    font-weight: 800;
+    background: linear-gradient(#F948B2, #8758F1);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.btn-primary{
+    
+}
+.btn-secondary{
+    
+}
+.banner-photo img{
+    width: 700px;
+    height: 650px;
+}
+
+/* banner section design :end here */
