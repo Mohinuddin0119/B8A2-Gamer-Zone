@@ -86,13 +86,13 @@
 /* --nav section design end here-- */
 
 /* banner section design start here */
-
 .game-banner{
    display: flex;
    justify-content: space-around;
    align-items: center;
    background-color:#cbd1d1 ;
     height: 650px;
+    width: auto;
 }
 .banner-info{
     width: 300px;
@@ -120,10 +120,10 @@
 .btn-primary{
     background-color: #F948B2;
     border: none;
-    color: rgb(6, 2, 8);
-    border-radius: 10px;
+    color: rgb(238, 235, 240);
+    border-radius: 15px;
     padding: 10px;
-    font-weight: 500
+    font-weight: 500;
 }
 .btn-secondary{
     background-color: #4EC5F7;
@@ -132,6 +132,8 @@
     border-radius: 10px;
     padding: 10px;
     font-weight: 500;
+    margin-left: 15px;
+    margin-top: 10px;
 }
 .banner-photo img{
     width: 700px;
@@ -139,3 +141,34 @@
 }
 
 /* banner section design end here */
+
+/* --poster section design start here-- */
+
+.poster-container{
+    width: 1920px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.poster-photo img{
+    width: 850px;
+    height: 480px;
+}
+.poster-info{
+    width: 600px;
+    height: 400px;
+}
+.poster-info p{
+    margin-bottom: 10px;
+}
+.poster-info button{
+    margin-bottom: 10px;
+}
+.quote{
+    color: #05020c;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* --poster section design end here-- */

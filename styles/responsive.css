@@ -31,12 +31,54 @@
     height: 400px;
 }
 .banner-info{
+    width: 300px;
     padding: 100px;
-    background-color: rgb(200, 224, 224);
 }
 
 /* banner section responsive end here */
+
+/* poster section responsive start here */
+
+.poster-container{
+    flex-direction: column;
+    width: 400px;
+    margin-left: 10%;
 }
+.poster-photo img{
+    width: 400px;
+    height: 300px;
+}
+.poster-info{
+    width: 400px;
+    height: 400px;
+}
+.poster-info button{
+    position: relative;
+    left:40%;
+}
+.quote-head{
+    text-align: center;
+}
+.quote{
+    font-size: 25px;
+}
+/* poster section responsive end here */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* --medium device-- */
@@ -75,4 +117,32 @@
 }
 
 /* banner section responsive end here */
+
+/* poster section responsive start here */
+
+.poster-container{
+    flex-direction: column;
+    width: 400px;
+    margin-left: 25%;
+}
+.poster-photo img{
+    width: 400px;
+    height: 300px;
+}
+.poster-info{
+    width: 400px;
+    height: 400px;
+}
+.poster-info button{
+    position: relative;
+    left:40%;
+}
+.quote-head{
+    text-align: center;
+}
+.quote{
+    font-size: 25px;
+}
+/* poster section responsive end here */
+
 }
