@@ -19,8 +19,24 @@
 }
 
 /* --nav section responsive end here-- */
+
+/* banner section responsive start here */
+
+.game-banner{
+    flex-direction: column-reverse;
+    height: 850px;
+}
+.banner-photo img{
+    width: 400px;
+    height: 400px;
+}
+.banner-info{
+    padding: 100px;
+    background-color: rgb(200, 224, 224);
 }
 
+/* banner section responsive end here */
+}
 
 
 /* --medium device-- */
@@ -42,4 +58,21 @@
 }
 
 /* --nav section responsive end here-- */
+
+/* banner section responsive start here */
+
+.game-banner{
+    flex-direction: column-reverse;
+    height: 850px;
+    background-color: bisque;
+}
+.banner-photo img{
+    width: 400px;
+    height: 400px;
+}
+.banner-info{
+    padding: 100px;
+}
+
+/* banner section responsive end here */
 }
