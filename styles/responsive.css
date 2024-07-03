@@ -32,7 +32,6 @@
 }
 .banner-info{
     width: 300px;
-    padding: 100px;
 }
 
 /* banner section responsive end here */
@@ -58,12 +57,27 @@
 }
 .quote-head{
     text-align: center;
+    margin-top: 20px;
 }
 .quote{
     font-size: 25px;
 }
 /* poster section responsive end here */
 
+/* --funny section responsive start here-- */
+
+.funny-header{
+    font-size: 30px;
+}
+.funny-container{
+    flex-direction: column;
+}
+.box{
+    position: relative;
+    left: 10%;
+}
+
+/* --funny section responsive end here-- */
 }
 
 
@@ -105,15 +119,14 @@
 
 .game-banner{
     flex-direction: column-reverse;
+    width: auto;
     height: 850px;
     background-color: bisque;
+    
 }
 .banner-photo img{
-    width: 400px;
-    height: 400px;
-}
-.banner-info{
-    padding: 100px;
+    width: 500px;
+    height: 500px;
 }
 
 /* banner section responsive end here */
@@ -139,10 +152,22 @@
 }
 .quote-head{
     text-align: center;
+    margin-top: 20px;
 }
 .quote{
     font-size: 25px;
 }
 /* poster section responsive end here */
+
+/* --funny section responsive start here-- */
+.funny-container{
+    flex-direction: column;
+}
+.box{
+    position: relative;
+    left: 30%;
+}
+
+/* --funny section responsive end here-- */
 
 }
