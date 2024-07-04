@@ -78,8 +78,28 @@
 }
 
 /* --funny section responsive end here-- */
+
+/* --play section responsive start here-- */
+
+.play-container{
+    flex-direction: column;
+    margin-left: 10%;
+    align-items: start;
+    width: 100%;
+}
+.play-photo1 img{
+    width: 80%;
+    height: 70%;
+}
+.play-photo2 img{
+    width: 40%;
+    height: 30%;
+    left: -10%;
+    top: 70%;
 }
 
+/* --play section responsive :end here-- */
+}
 
 
 
@@ -169,5 +189,26 @@
 }
 
 /* --funny section responsive end here-- */
+
+/* --play section responsive start here-- */
+
+.play-container{
+    flex-direction: column;
+    margin-left: 10%;
+    align-items: start;
+    width: 100%;
+}
+.play-photo1 img{
+    width: 80%;
+    height: 70%;
+}
+.play-photo2 img{
+    width: 40%;
+    height: 40%;
+    left: -10%;
+    top: 70%;
+}
+
+/* --play section responsive :end here-- */
 
 }
