@@ -32,7 +32,6 @@
 .nav-logo{
     display: flex;
    align-items: center;
-
 }
 .nav-logo-img{
     width: 50px;
@@ -263,3 +262,43 @@
 }
 
 /* --play section design end here-- */
+
+/* --footer section design start here-- */
+
+.footer-container{
+    background-color: #0B0223;
+    padding: 30px;
+    text-align: center;
+
+}
+.logo{
+    color: rgb(212, 200, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.footer-list a{
+    text-decoration: none;
+    margin-right:20px;
+    color: whitesmoke;
+}
+.icons{
+    color: white;
+    margin-top: 20px;
+}
+.icons i{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.privacy a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #27252c;
+}
+.footer-container p{
+    color: #23202b;
+    margin-top: 20px;
+}
+
+/* --footer section design :end here-- */
